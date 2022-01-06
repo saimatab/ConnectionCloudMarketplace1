@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [SmokeTestSuite]">
+  <listeners>
+    <listener class-name="resources.listeners"/>
+    <listener class-name="resources.CustomTestNGReporter"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Validate Regression Tests(failed)">
+    <classes>
+      <class name="tests.LatestRegressionSuite_4">
+        <methods>
+          <include name="Validate_spend_provider_29"/>
+        </methods>
+      </class> <!-- tests.LatestRegressionSuite_4 -->
+    </classes>
+  </test> <!-- Validate Regression Tests(failed) -->
+</suite> <!-- Failed suite [SmokeTestSuite] -->

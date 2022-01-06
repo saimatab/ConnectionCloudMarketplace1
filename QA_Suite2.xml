@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite2">
+
+
+<listeners>
+<listener class-name="resources.listeners"/>
+	<listener class-name="resources.CustomTestNGReporter" />
+	<listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+     <test name="Validate Smoke regression Tests" >
+
+               <!--  db-->   
+      <parameter name="dburl" value="jdbc:mysql://10.90.1.224:3306/database_sensitive" />
+     <parameter name="dbun" value="saima"/>
+      <parameter name="dbpswd" value="ArpatecH157"/> 
+      
+           <parameter name="env" value="qa" />
+   <parameter name="url" value="https://ccpqa-customerportal.arpatech.com/auth/login" />
+   <parameter name="domains" value="https://ccpqa-customerportal.arpatech.com/account/account-domains" />
+  
+   <parameter name="404page" value="https://ccpqa-customerportal.arpatech.com/marketplaces" />
+   
+                 <!--  #suite1 -->   
+   
+     <parameter name="username1" value="ccptestmain@arpatech.com"/>
+      <parameter name="pswd1" value="Connection123"/>    
+      
+              <!--  #suite2
+
+#forgotpassword, header footor ,home page -->   
+   <parameter name="username2" value="a67215100@jj67j100.com"/>
+       <parameter name="pswd2" value="ArpatecH157@"/>
+       
+               <!--  #suit3
+#Estimatedetails #Saimatst Tabassumtst   #discovery catelog manage,about ccm_acct_domain,settings ,a ddress-->   
+   <parameter name="username3" value="a6721574@jj67j74.com"/>
+        <parameter name="pswd3" value="ArpatecH157@"/>
+        
+           <!--  #suit4
+#create estimatefresh-->   
+      <parameter name="username4" value="tenant3saimaqa@new.com" />
+      <parameter name="pswd4" value="ArpatecH157@"/>
+      
+              <!--  #calender-->   
+   <parameter name="username5" value="qunoot.ahmed+098765@arpatech.com"/>
+        <parameter name="pswd5" value="ArpatecH157@"/>
+        
+       
+        <!--  #insight report e n-->   
+           <parameter name="username6" value="qunoot.ahmed+098765@arpatech.com"/>
+      <parameter name="pswd6" value="ArpatecH157@"/>    
+      
+       <!--  
+#suit5
+# user role created through invite checl for domans page-->  
+   <parameter name="username7" value="saima.tabassum+7777125@arpatech.com"/>
+       <parameter name="pswd7" value="ArpatecH157@"/>
+     
+        <!--   #suit6
+# change password-->  
+   <parameter name="username8" value="a6721588@jj67j88.com"/>
+        <parameter name="pswd8" value="ArpatecH157@"/>
+        
+   <!-- 
+#suit7
+# valiadte pDP already created estiamte -->
+          <parameter name="username9" value="tenant1saima@new.com" />
+      <parameter name="pswd9" value="ArpatecH157@"/>
+      
+<!--   # for estiamte trasnation/update subscription-->
+   <parameter name="username10" value="tenant2saima@new.com"/>
+        <parameter name="pswd10" value="ArpatecH157@"/>
+    
+     <classes>
+
+           <class name="tests.LatestRegressionSuite_1"/>   
+               <class name="tests.LatestRegressionSuite_3"/>   
+
+    <class name="tests.LatestRegressionSuite_4"/> 
+    
+
+          <class name="tests.LatestRegressionSuite_5"/>   
+               <class name="tests.LatestRegressionSuite_6"/>  
+
+    </classes>
+ 
+</test>
+ 
+</suite> 

@@ -1,0 +1,1 @@
+{"status_code":200,"success":true,"message":"An email has been sent. please follow the instructions to complete email address verification","data":{"token":"QvjYXSW5cW4GoT4PtDCbML8s7J3YEMII8W3wJKlS1wppB6jchS1MDNoNc4i5","emailToken":"c2FpbWEudGFiYXNzdW1AYXJwYXRlY2guY29t","verificationCode":181000,"next_step":2,"error_type":1,"account_matching":null}}

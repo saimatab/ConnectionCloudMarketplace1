@@ -1,0 +1,185 @@
+17:47:19.652 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARP-260', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAIMA~1.TAB\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b1af9276db53d16341ef0575522bf7b7
+*** Element info: {Using=id, value=city}
+17:48:25.737 [main] ERROR resources.base - On Catalog Restriction page all page elements are not appearing
+17:48:25.737 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Restrict']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARP-260', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAIMA~1.TAB\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:63594}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b1af9276db53d16341ef0575522bf7b7
+*** Element info: {Using=xpath, value=//a[text()='Restrict']}
+17:51:08.183 [main] INFO  resources.base - From the Customer Portal user is clicking on Platform link under MarkITPlace Section
+17:51:15.787 [main] INFO  resources.base - From the Customer Portal user is clicking on Consulting link under MarkITPlace Section
+17:51:28.225 [main] INFO  resources.base - From the Customer Portal user is searching the Microsoft service
+17:51:34.312 [main] INFO  resources.base - From the Customer Portal user is clicking on Logout from account menu
+17:51:40.565 [main] INFO  resources.base - From the Customer Portal user Login page , User is entering the correct username but wrong password
+17:52:00.260 [main] INFO  resources.base - From the Customer Portal forget password page , User is clicking on forget password link and sending the email for password reset
+11:24:44.540 [main] INFO  resources.base - The title of the home page is captured
+11:24:47.543 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+11:28:30.155 [main] INFO  resources.base - From the Customer Portal user is clicking on my profile from account menu
+11:28:48.861 [main] INFO  resources.base - From the Customer Portal user is clicking on Account settings from account menu
+11:29:21.142 [main] INFO  resources.base - From the Customer Portal user is clicking on Address Of use from account menu
+11:29:31.267 [main] INFO  resources.base - From the Address of Use page user is clicking on request address button
+11:29:31.459 [main] ERROR resources.base - From the Customer Portal user not able to click on Address Of Use from account menu
+11:29:31.465 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARP-260', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAIMA~1.TAB\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6bd98899ca55bfca4ea21c70a5d803e9
+*** Element info: {Using=id, value=city}
+11:30:48.127 [main] ERROR resources.base - On Catalog Restriction page all page elements are not appearing
+11:30:48.128 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Restrict']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARP-260', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAIMA~1.TAB\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:60570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6bd98899ca55bfca4ea21c70a5d803e9
+*** Element info: {Using=xpath, value=//a[text()='Restrict']}
+14:33:49.330 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+14:36:20.777 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+14:38:35.947 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+14:42:18.533 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+14:46:39.565 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+14:46:53.904 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+14:48:33.357 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+14:48:43.239 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+15:26:16.716 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+15:26:26.220 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+10:52:46.887 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+10:53:04.865 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+11:04:23.246 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+11:04:39.315 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+11:06:15.298 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+11:06:30.672 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+11:15:52.857 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+11:19:58.130 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+11:22:30.502 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+11:24:59.526 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+11:27:17.573 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+11:29:11.253 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+11:21:46.509 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+11:24:53.389 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+11:30:34.341 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+11:32:56.646 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+11:37:09.161 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+11:38:23.114 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+11:40:04.010 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+12:36:38.473 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+15:54:53.274 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+15:56:38.545 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:14:54.385 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:26:18.240 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:38:22.593 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:39:56.885 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:44:28.557 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:48:11.453 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:49:03.775 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:53:21.834 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:05:43.835 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:10:45.145 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:15:07.346 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:25:23.379 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:30:03.516 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:35:37.259 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:40:46.230 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:43:51.468 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:45:50.155 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:49:32.660 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:52:18.679 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:54:23.943 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:59:55.175 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+18:02:22.309 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+18:04:57.152 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+18:14:02.164 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+18:17:06.578 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+18:19:45.175 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+18:22:05.432 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+15:12:32.679 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+15:14:47.286 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:16:24.878 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:28:52.089 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:34:29.272 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:05:45.165 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+17:08:07.154 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+13:53:14.230 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+13:56:28.094 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+13:56:32.193 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+13:59:35.134 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+14:18:26.899 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+14:26:06.097 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+14:33:51.189 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+15:16:34.403 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+21:28:51.195 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+21:43:10.760 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+21:47:07.897 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+21:48:12.066 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+21:51:58.488 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+21:52:52.196 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+21:58:47.781 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+21:59:39.913 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+22:22:40.983 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+22:23:33.291 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+22:36:54.586 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+20:18:41.689 [main] ERROR resources.base - User not able to find Application Link on the Marketplace Page
+20:18:41.692 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='top-link' and text()='Applications']"}
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARP-260', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAIMA~1.TAB\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6654091c11aa5cbdf152a39453623cdc
+*** Element info: {Using=xpath, value=//a[@class='top-link' and text()='Applications']}
+20:18:41.719 [main] ERROR resources.base - User not able to find Infrastructure Link on the Marketplace Page
+20:18:41.719 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='top-link' and text()='Infrastructure']"}
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARP-260', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAIMA~1.TAB\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:49906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6654091c11aa5cbdf152a39453623cdc
+*** Element info: {Using=xpath, value=//a[@class='top-link' and text()='Infrastructure']}
+20:18:46.908 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+11:45:26.257 [main] ERROR resources.base - User not able to find Infrastructure Link on the Marketplace Page
+11:45:26.262 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='top-link' and text()='Infrastructure']"}
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ARP-260', ip: '192.168.9.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\SAIMA~1.TAB\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 042dd0ce9f5664bc66334eda8ffca2d7
+*** Element info: {Using=xpath, value=//a[@class='top-link' and text()='Infrastructure']}
+20:08:27.606 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+20:08:40.931 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+20:31:11.270 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+20:31:19.780 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+14:28:41.430 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+14:36:12.725 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+14:36:16.053 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+15:16:59.691 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+15:17:02.959 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+11:37:44.483 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+11:37:49.180 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+16:28:02.284 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+16:28:06.022 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+15:59:52.921 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+16:11:37.600 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+16:38:35.496 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+17:00:52.946 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+17:00:56.850 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page

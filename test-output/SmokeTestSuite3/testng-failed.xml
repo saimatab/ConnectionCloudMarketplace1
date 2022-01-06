@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [SmokeTestSuite3]">
+  <listeners>
+    <listener class-name="resources.listeners"/>
+    <listener class-name="resources.CustomTestNGReporter"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Validate Smoke regression Tests(failed)">
+    <parameter name="pswd1" value="Connection123"/>
+    <parameter name="pswd2" value="Connection123"/>
+    <parameter name="pswd3" value="Connection123"/>
+    <parameter name="pswd4" value="Connection123"/>
+    <parameter name="pswd5" value="Connection123"/>
+    <parameter name="pswd10" value="Connection123"/>
+    <parameter name="pswd6" value="Test*123"/>
+    <parameter name="pswd7" value="Connection123"/>
+    <parameter name="pswd8" value="Connection123"/>
+    <parameter name="pswd9" value="Connection123"/>
+    <parameter name="username5" value="saima.tabassum+4043@arpatech.com"/>
+    <parameter name="username4" value="a6721514@jj67j14.com"/>
+    <parameter name="username3" value="a6721574@jj67j74.com"/>
+    <parameter name="username2" value="a67215100@jj67j100.com"/>
+    <parameter name="username1" value="ccptestmain@arpatech.com"/>
+    <parameter name="dburl" value="jdbc:mysql://18.211.175.203:3306/database_sensitive"/>
+    <parameter name="username10" value="tenant5saima@new.com"/>
+    <parameter name="dburl1" value="jdbc:mysql://18.211.175.203:3306/database_business"/>
+    <parameter name="username9" value="tenant4saima@new.com"/>
+    <parameter name="username8" value="a6721588@jj67j88.com"/>
+    <parameter name="username7" value="saima.tabassum+888@arpatech.com"/>
+    <parameter name="username6" value="saima.tabassum+2027@arpatech.com"/>
+    <parameter name="domains" value="https://ccpuat-customerportal.arpatech.com/account/account-domains"/>
+    <parameter name="url" value="https://ccpuat-customerportal.arpatech.com/auth/login"/>
+    <parameter name="dbpswd" value="ArpatecH157"/>
+    <parameter name="dbun" value="saima"/>
+    <parameter name="404page" value="https://ccpuat-customerportal.arpatech.com/marketplaces"/>
+    <classes>
+      <class name="tests.LatestRegressionSuite_6">
+        <methods>
+          <include name="Validate_UM_and_Logout_59_60" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.LatestRegressionSuite_6 -->
+    </classes>
+  </test> <!-- Validate Smoke regression Tests(failed) -->
+</suite> <!-- Failed suite [SmokeTestSuite3] -->
